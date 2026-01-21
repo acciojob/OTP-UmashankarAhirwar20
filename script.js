@@ -13,7 +13,6 @@ codes.forEach((code, index) => {
       }, 10);
     }
 
-    // If backspace is pressed
     if (e.key === 'Backspace') {
       code.value = '';
       setTimeout(() => {
